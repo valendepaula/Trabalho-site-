@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas Deliciosas</title>
+  <Style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #ff6347;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .recipe-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .recipe-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card h3 {
+    margin-bottom: 10px;
+    color: #ff6347;
+  }
+  
+  .recipe-card p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .recipe-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  } </Style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Receitas Deliciosas</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#receitas">Receitas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h2>Bem-vindo ao nosso site de receitas</h2>
+      <p>Descubra receitas incríveis para preparar pratos deliciosos. Explore nossas opções e encontre a receita perfeita para hoje!</p>
+    </div>
+  </section>
+
+  <section id="receitas">
+    <div class="container">
+      <h2>Nossas Receitas</h2>
+      <div class="recipe-grid">
+        <div class="recipe-card">
+          <h3>Bolo de Cenoura</h3>
+          <img src="055caa6d-7528-44bc-ac32-3add84bdc0b0 (2).jpg"Bolo de Cenoura">
+          <p>Um clássico bolo de cenoura com cobertura de chocolate.</p>
+          <a href="#">Ver Receita</a>
+        </div>
+        <div class="recipe-card">
+          <h3>Feijoada</h3>
+          <img src="como-preparar-uma-feijoada-deliciosa (1).jpg" alt="Feijoada">
+          <p>Uma feijoada completa com todos os acompanhamentos.</p>
+          <a href="#">Ver Receita</a>
+        </div>
+        <div class="recipe-card">
+          <h3>Salada Caesar</h3>
+          <img src="salada-caesar-com-frango-1906-1024x683.jpg" alt="Salada Caesar">
+          <p>Salada Caesar fresca com frango grelhado.</p>
+          <a href="#">Ver Receita</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contato">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Email: contato@receitasdeliciosas.com</p>
+      <p>Telefone: (11) 1234-5678</p>
+      <p>Siga-nos nas redes sociais!</p>
+    </div>
+  </footer>
+</body>
+</html>
